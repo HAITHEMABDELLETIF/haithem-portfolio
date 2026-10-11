@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Haithem</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Haithem<span>.</span></h1>
+
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeBtn">Changer le thème</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil">
+        <h2>Bonjour, je suis <span>Haithem</span></h2>
+        <h3>Étudiant en informatique</h3>
+        <p>
+          Je découvre le développement web et j'apprends à créer des sites web
+          simples et modernes.
+        </p>
+        <a href="#projets" class="btn">Découvrir mes projets</a>
+        <br /><br />
+        <a href="cv.pdf" class="btn" download> Télécharger mon CV </a>
+      </section>
+
+      <section id="apropos">
+        <h2>À propos de moi</h2>
+        <p>
+          Je suis étudiant en informatique. J'apprends la programmation, le
+          développement web et les bases de données. Je souhaite améliorer mes
+          compétences à travers des projets pratiques.
+        </p>
+      </section>
+
+      <section id="competences">
+        <h2>Mes compétences</h2>
+
+        <div class="skills-container">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">PHP</div>
+          <div class="skill">Java</div>
+          <div class="skill">Python</div>
+          <div class="skill">Bases de données</div>
+          <div class="skill">Microsoft Word</div>
+        </div>
+      </section>
+
+      <section id="projets">
+        <h2>Mes projets</h2>
+        <p>Quelques projets pour développer mes compétences.</p>
+
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>Mon Portfolio</h3>
+            <p>
+              Un site personnel réalisé avec HTML, CSS et JavaScript pour
+              présenter mes compétences.
+            </p>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <p><strong>Statut :</strong> En cours</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Site vitrine</h3>
+            <p>
+              Un exemple de site web pour présenter une entreprise, ses services
+              et ses coordonnées.
+            </p>
+            <span>HTML</span>
+            <span>CSS</span>
+            <p><strong>Statut :</strong> À réaliser</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Gestion des utilisateurs</h3>
+            <p>
+              Un projet pour apprendre à gérer des utilisateurs avec PHP et une
+              base de données.
+            </p>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <p><strong>Statut :</strong> À réaliser</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Me contacter</h2>
+        <p>Vous souhaitez me contacter pour un projet ?</p>
+        <p>
+          E-mail :
+          <a href="mailto:haithemabdelletif23@gmail.com.com">
+            haithemabdelletif23@gmail.com
+          </a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Haithem. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
